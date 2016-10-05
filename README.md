@@ -17,8 +17,18 @@ Installation
 - `cp install.sh.template install.sh`
 - editer les CHANGEME dans install.sh
 - `sh install.sh`
+- modifier l'uid dans kill.c pour qu'il corresponde à l'uid qui executera detect.py
+- `gcc kill.c -o kill ; sudo chmod 4750 kill; mv kill /var/www/html/`
 - ajouter des users dans user.json
 - N'oublier pas de mettre en ip static vos users
+
+
+Execution
+-------------
+
+- `./detect.py`
+ou si vous voulez le lancer au démarrage
+- `su -c 'cd /etc/script/detect && ./detect.py > /etc/script/log &' pi`
 
 
 Configuration
@@ -74,4 +84,5 @@ TODO
 | Sécurité     | 100    |  Interdit la tentative de connexion avec des ip/mac differente |
 | SMS    | 20   |  Utilisation d'sms en plus de l'envois de mail pour la l'ouverture   |
 | Camera    | 2   |  Ajout des cameras dans le mail   |
+| HTTP    | 2   |  Mettre l'url du mail en configuration   |
 | Fix jarvis | 1 |  Problème lorsque l'on veux parler exactement en même temps (use queue)  |

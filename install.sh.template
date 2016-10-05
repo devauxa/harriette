@@ -1,4 +1,4 @@
-sudo apt-get install mailutils mpack heirloom-mailx ssmtp arping
+sudo apt-get install mailutils mpack heirloom-mailx ssmtp arping apache2
 sudo pip install lifxlan
 
 echo "root=CHANGEME_MAIL
