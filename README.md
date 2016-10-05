@@ -2,12 +2,13 @@ Welcome to Harriette !
 ===================
 
 Harriette est un programme permettant de détecter la présence d'utilisateur en fonction de leur présence sur un wifi.
+
 Il utilise Jarvis pour la voix, et des scripts ad-hoc pour les modules porte/lumière
+
 Si vous faites partie des administrateurs, vous serez contacter par mail lors d'une détection d'un utilisateur, vous pouvez donc accepter ou non l'ouverture de la porte
 
 ----------
 
-[TOC]
 
 
 Installation
@@ -29,7 +30,7 @@ Configuration
 > Contient une liste d'utilisateur avec pour format
 > - **mac** :  "adresse mac"
 > - **ip** : "adresse ip static"
-> - **name** : [liste de nom de l'utilisateur] (utilisé aléatoirement par harriette)
+> - **name** : liste de nom de l'utilisateur (utilisé aléatoirement par harriette)
 > - **tel** : "téléphone" (si présent, l'utilisateur est considéré comme **admin**) [TODO]
 > - **email** : "email" (si présent, l'utilisateur est considéré comme **admin**))
 
@@ -38,10 +39,10 @@ Configuration
 
 > Contient un dictionnaire de config avec pour format
 > - **lang** :  "la langue d'harriette"
-> - **light** : "le path du binaire permettant une gestion des [lumières](#light.py)"
-> - **light_info** : "le path du binaire permettant d'avoir les informations des [lumières](#info.py)"
->  - **door** : "le path du binaire permettant une ouverture de la [porte](#Porte)"
-> - **jarvis** : "le path du binaire de [jarvis](#Jarvis))
+> - **light** : "le path du binaire permettant une gestion des lumières"
+> - **light_info** : "le path du binaire permettant d'avoir les informations des lumières"
+> - **door** : "le path du binaire permettant une ouverture de la porte"
+> - **jarvis** : "le path du binaire de [jarvis](https://github.com/alexylem/jarvis))
 
 #### Langage
 > **lang.json:**
