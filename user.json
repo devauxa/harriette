@@ -1,0 +1,19 @@
+[{
+    "mac" : "XX:XX:XX:XX:XX:XX",
+    "ip" : "192.168.XX.XX",
+    "name": ["Cédric", "Créateur", "Maitre"],
+    "tel" : "XX.XX.XX.XX.XX"
+},{
+    "mac" : "XX:XX:XX:XX:XX:XX",
+    "ip" : "192.168.XX.XX",
+    "name": ["Mario"]
+},{
+    "mac" : "XX:XX:XX:XX:XX:XX",
+    "ip" : "192.168.XX.XX",
+    "name": ["Utilisateur"]
+},{
+    "mac" : "XX:XX:XX:XX:XX:XX",
+    "ip" : "192.168.XX.XX",
+    "name" : ["Cédric"],
+    "email" : "XXXXXXXXXXXXXX@XXXXXXXXX"
+}]

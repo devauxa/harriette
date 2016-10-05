@@ -1,0 +1,7 @@
+{
+    "lang" : "FR",
+    "light" : "/etc/script/light/light.py",
+    "light_info" : "/etc/script/light/info.py",
+    "door" : "/etc/script/door/porte.py",
+    "jarvis" : "/etc/script/jarvis/jarvis.sh"
+}

@@ -1,0 +1,41 @@
+{
+    "CALL_ADMIN": { 
+        "FR" : [
+            "{0} demande ouverture de la porte, veuillez patienter",
+            "{0}, Votre presence a été detecté, veuillez patienter"
+        ]
+    },
+    "DISCONNECTED": { 
+        "FR" : [
+            "{0} est parti",
+            "Départ de {0}"
+        ]
+    },
+    "CONNECTED": { 
+        "FR" : [
+            "Bienvenue {0}",
+            "{0} est là"
+        ]
+    },
+    "AUTHORIZE": { 
+        "FR" : [
+            "{0} est authorisé à renter"
+        ]
+    },
+    "UNAUTHORIZE": { 
+        "FR" : [
+            "{0} est pas authorizé à renter",
+            "La porte restera fermé, merci de contacter un admin"
+        ]
+    },
+    "MAIL_BODY": { 
+        "FR" : [
+            "Bonjour {0}, {1} souhaite ouvrir la porte, voulez vous le faire ? Si oui cliquez sur le lien <a href='http://home.epiteck.eu/{2}'>J'autorise</a> sinon <a href='http://home.epiteck.eu/{3}'>Je refuse</a>"
+        ]
+    },
+    "MAIL_TITLE": { 
+        "FR" : [
+            "[Porte] Harriette vous demande"
+        ]
+    }
+}

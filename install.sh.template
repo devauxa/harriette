@@ -1,0 +1,10 @@
+sudo apt-get install mailutils mpack heirloom-mailx ssmtp arping
+sudo pip install lifxlan
+
+echo "root=CHANGEME_MAIL
+mailhub=CHANGEME
+hostname=home
+AuthUser=CHANGEME_MAIL
+AuthPass=CHANGEME_PASSWORD
+FromLineOverride=YES
+UseSTARTTLS=YES" > /etc/ssmtp/ssmtp.conf
